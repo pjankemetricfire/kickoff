@@ -54,7 +54,7 @@ sites = {
 "Calendar" : "https://calendar.google.com/",
 "Drive" : "https://drive.google.com/",
 "Zendesk" : "https://hostedgraphite.zendesk.com/agent/dashboard",
-"Github": "https://github.com",
+"Github": "https://github.com/metricfire",
 }
 
 run(sites, apps)
