@@ -48,13 +48,13 @@ def run(sites, apps):
 		launch_sites(sites)
 
 
-apps = ['Slack', '1Password 7', 'Visual Studio', 'Todoist']
+apps = ['Slack', '1Password 7', 'Visual Studio Code', 'zoom.us', 'Dialpad']
 sites = {
 "Mail" : "https://mail.google.com/",
-"Github": "https://github.com",
 "Calendar" : "https://calendar.google.com/",
 "Drive" : "https://drive.google.com/",
 "Zendesk" : "https://hostedgraphite.zendesk.com/agent/dashboard",
+"Github": "https://github.com",
 }
 
 run(sites, apps)
