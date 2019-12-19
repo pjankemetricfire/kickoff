@@ -6,5 +6,5 @@ export PROMPT_COMMAND="echo -n \[\$(date +%H:%M:%S)\]\ "
 
 
 alias work="desk && python get_started_at_work.py"
-alias bash_profile="cd ~ && sublime .bash_profile"
+alias bash_profile="cd ~ && subl .bash_profile"
 alias reload_bash="source .bash_profile"
